@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(225, 230, 255);
+}
+
+header {
+    padding: 1rem;
+    background-color: rgb(8, 25, 42);
+    color: rgb(248, 247, 247);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compositor .description{
+}
+
+.compositor h3{
+    margin: 1rem;
+}
+
+.compositor img {
+    height: 15rem;
+}
+
+.compositor li {
+    border-bottom: 4px solid rgb(36, 36, 61); 
+    border-radius: 2px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.compositor p {
+    width: 70%;
+    max-height: 90%;
+    margin: 1rem;
+}
+
+.compositor iframe{
+    margin: 1rem;
+    max-width: 100%;   
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+.message{
+    border: 3px solid black; 
+    max-width: 40rem;
+    min-width: 29rem;
+    height: 15rem;
+    margin: 1rem;
+    position: relative;
+    margin-bottom: 16rem;
+}
+
+.message p{
+    align-items: left;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainImage {
+    height: 30rem;
+    border: 3px solid black;
+}
+
+
+.title{
+    margin-left: 53rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.title p{
+    align-items: center;
+    margin-left: 10rem; 
+}
+
+.form{
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.form input{
+    border: 3px solid black;
+    margin: 1rem;
+}
+
+.form form{
+    display: grid;
+
+}
