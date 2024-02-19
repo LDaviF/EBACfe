@@ -124,17 +124,29 @@ header .container {
     border: 3px solid black;
     justify-content: center;
     align-items: center;
-
-    
-    
+    padding: 1rem;
 }
 
 .form input{
-    border: 3px solid black;
-    margin: 1rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.form textarea{
+    border: 1px solid black;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }
 
 .form form{
     display: grid;
-
 }
+
+.formTitle{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
