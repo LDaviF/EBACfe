@@ -121,7 +121,6 @@ header .container {
 }
 
 .form{
-    border: 3px solid black;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -139,10 +138,12 @@ header .container {
     margin: 0.5rem;
     padding: 1.5rem;
     border-radius: 1rem;
+    resize: none;
 }
 
 .form form{
     display: grid;
+    margin-bottom: 25%;
 }
 
 .formTitle{
@@ -150,3 +151,8 @@ header .container {
     margin-top: 2rem;
 }
 
+footer{
+    background-color: rgb(36, 36, 61);
+    color: #fff;
+    padding: 1rem;
+}
