@@ -16,3 +16,21 @@
     background-color: brown;
     color: wheat;
 }
+
+#feedback{
+    background-color: rgb(248, 230, 230);
+    border: 1px solid black;
+    margin: 1rem auto;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    align-content: center;
+    display: none; 
+}
+
+
+#feedback p{
+    color: white;
+    align-content: center;
+    margin: auto auto;
+}
