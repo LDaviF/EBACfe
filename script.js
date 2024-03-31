@@ -1,13 +1,16 @@
+/*
+function validateInput(input){
+    if (inpu)
 
-
-
+}
+*/
 form.addEventListener('submit', function(event){
     event.preventDefault() // evita o envio do form
     
     let firstValue = parseInt(document.getElementById("valueA").value)
     let secondValue = parseInt(document.getElementById("valueB").value)
     let feedback = document.getElementById("feedback")
-    
+
 
     
 
@@ -24,4 +27,7 @@ form.addEventListener('submit', function(event){
         feedback.style.background = "rgb(248, 230, 230)"
         feedback.style.display = 'grid'   
     }
+
 })
+
+
