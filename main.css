@@ -10,11 +10,10 @@ body{
 #mainForm{
     position: relative;
     display: grid;
-    border: solid black 1px;
     max-width: auto;
     max-height: auto;
-    margin: 10rem;
-    min-width: 15rem;
+    margin: 7rem;
+    min-width: 5rem;
     margin-top: 5rem;
 }
 
