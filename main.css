@@ -1,122 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: #dbd9d9;
-    padding-top: 6.5rem;
-}
-
-header{
+header {
+    background-color: rgb(66, 6, 122);
+    padding: 1rem 0;
+    color: rgb(238, 221, 221);
     display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
+    border-bottom: 1rem solid rgb(44, 4, 82);
+    justify-content: center;
+    text-transform: uppercase;
 }
 
-header img {
-    height: 5rem;
-    margin: 1rem;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-img{
-    max-width: 1rem;
-    max-height: 1rem;
-}
-
-#mainIcon{
-    max-width: 3rem;
-    max-height: 3rem;
-}
-
-.container {
-    max-width: 60rem;
-    width: 100%;
-    margin: 0 auto;
+header button{
+    margin-left: 1rem;
 }
 
 form {
+    background-color: #c8d5e6;
+    padding: 2rem 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 1rem;
+}
+
+input, button {
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #66c667;
+    border: none;
+    color: rgb(33, 0, 66);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
+
+#Cancel {
+    background-color: rgb(255, 84, 84);
+    color: white;
+
+}
+
+ul {
     display: flex;
-    max-width: 40rem;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
 }
 
-form button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(51, 51, 128);
-    font-size: 1.5rem;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    margin: 1rem 2rem;
-    padding: 0rem 1rem;
-    border-radius: 0.3rem;
-    border: 3px solid rgb(46, 46, 46);
- 
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 14rem;
+    overflow-y: hidden;
 }
 
-form input {
-    font-size: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    border-bottom: 2px solid;
-    padding: 0rem 1rem;
-    margin: 1rem 0rem;
-    border-radius: 0.3rem;
-    border: 3px solid rgb(46, 46, 46);
-}
-
-table {
+ul li img{
     width: 100%;
 }
 
-table th{
-    border-bottom: 2px solid black;
+.OverlayImageURL{
     padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+
 }
 
-table td{
-    padding: 1rem 0rem;
-     text-align: center;
-     font-size: 1.1rem;
-     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-table td img{
-    height: 1.4rem;
-}
-
-.result{
-    padding: 0.5rem;
-    font-weight: bold;
+.OverlayImageURL a {
     color: white;
-    background-color: rgb(0, 0, 0);
-    border-radius: 0.5rem;
+    text-decoration: none;
 }
 
-.pass{
-    padding: 0.5rem;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(3, 131, 37);
-    border-radius: 0.5rem;
+ul li:hover .OverlayImageURL{
+    opacity: 1;
 }
 
-.fail{
-    padding: 0.5rem;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(180, 9, 9);
-    border-radius: 0.5rem;
-}
