@@ -1,89 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+*{
+    border: 1px black solid;
+
 }
 
-header {
-    background-color: rgb(66, 6, 122);
-    padding: 1rem 0;
-    color: rgb(238, 221, 221);
-    display: flex;
-    border-bottom: 1rem solid rgb(44, 4, 82);
-    justify-content: center;
-    text-transform: uppercase;
-}
-
-header button{
-    margin-left: 1rem;
-}
-
-form {
-    background-color: #c8d5e6;
-    padding: 2rem 0;
+h1{
+    border: 1px black solid;
     text-align: center;
-    display: none;
+    
 }
-
-form h2 {
-    margin-bottom: 1rem;
-}
-
-input, button {
-    padding: 0.5rem;
-}
-
-button {
-    background-color: #66c667;
-    border: none;
-    color: rgb(33, 0, 66);
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 0.3rem;
-}
-
-#Cancel {
-    background-color: rgb(255, 84, 84);
-    color: white;
-
-}
-
-ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul li{
-    max-width: 25%;
-    list-style: none;
-    position: relative;
-    max-height: 14rem;
-    overflow-y: hidden;
-}
-
-ul li img{
-    width: 100%;
-}
-
-.OverlayImageURL{
-    padding: 1rem;
-    background-color: rgba(0,0,0,0.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: all ease 0.5s;
-
-}
-
-.OverlayImageURL a {
-    color: white;
-    text-decoration: none;
-}
-
-ul li:hover .OverlayImageURL{
-    opacity: 1;
-}
-
