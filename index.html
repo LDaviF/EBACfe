@@ -12,13 +12,22 @@
 
     <body>
         <h1>To Do List</h1>
-        <ul id="list">
-            <li>Task 1</li>
-            <li>Task 2</li>
-            <li>Task 3</li>
-            <li>Task 4</li>
-        </ul>
+        <div>
+            <form>
+                <input type="text" id="inputText" placeholder="Type your task here" maxlength="100" required></input>
+                <button type="submit" id="insert">Insert</button>
+            </form>
+        </div>
+        <ol id="list">
+            <li><p>Task</p> <button class="Done">Done</button></li>
+            <li><p>Task</p> <button class="Done">Done</button></li>
+            <li><p>Task</p> <button class="Done">Done</button></li>
+            <li><p>Task</p> <button class="Done">Done</button></li>
+        </ol>
 
         <button>Clear List</button>
+
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script  src="script.js"></script>
     </body>
 </html>
